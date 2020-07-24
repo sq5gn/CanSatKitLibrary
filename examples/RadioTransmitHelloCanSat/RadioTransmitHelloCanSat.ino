@@ -8,7 +8,7 @@ const int led_pin = 13;
 
 Radio radio(Pins::Radio::ChipSelect,
             Pins::Radio::DIO0,
-            433.0,
+            433.1,
             Bandwidth_125000_Hz,
             SpreadingFactor_9,
             CodingRate_4_8);
